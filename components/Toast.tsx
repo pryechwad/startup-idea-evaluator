@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, Animated, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Animated, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useThemeColor } from '@/hooks/useThemeColor';
 
 interface ToastProps {
   message: string;
@@ -19,25 +18,25 @@ export function Toast({ message, type, visible, onHide }: ToastProps) {
     switch (type) {
       case 'success': 
         return {
-          colors: ['#4CAF50', '#45a049'],
+          colors: ['#4CAF50', '#45a049'] as const,
           icon: '✅',
           shadowColor: '#4CAF50'
         };
       case 'error': 
         return {
-          colors: ['#F44336', '#d32f2f'],
+          colors: ['#F44336', '#d32f2f'] as const,
           icon: '❌',
           shadowColor: '#F44336'
         };
       case 'info': 
         return {
-          colors: ['#2196F3', '#1976d2'],
+          colors: ['#2196F3', '#1976d2'] as const,
           icon: 'ℹ️',
           shadowColor: '#2196F3'
         };
       default: 
         return {
-          colors: ['#2196F3', '#1976d2'],
+          colors: ['#2196F3', '#1976d2'] as const,
           icon: 'ℹ️',
           shadowColor: '#2196F3'
         };
@@ -76,7 +75,7 @@ export function Toast({ message, type, visible, onHide }: ToastProps) {
         ]),
       ]).start(() => onHide());
     }
-  }, [visible]);
+  }, [visible, onHide, scaleAnim, slideAnim]);
 
   if (!visible) return null;
 
