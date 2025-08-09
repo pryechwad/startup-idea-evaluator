@@ -1,0 +1,35 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bulb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="512" cy="512" r="512" fill="url(#bg)"/>
+  
+  <!-- Light Bulb -->
+  <path d="M512 200C420 200 346 274 346 366C346 420 370 468 408 500L408 580C408 610 432 634 462 634L562 634C592 634 616 610 616 580L616 500C654 468 678 420 678 366C678 274 604 200 512 200Z" fill="url(#bulb)" stroke="#fff" stroke-width="8"/>
+  
+  <!-- Bulb Base -->
+  <rect x="462" y="634" width="100" height="40" rx="20" fill="#E0E0E0" stroke="#fff" stroke-width="4"/>
+  <rect x="462" y="674" width="100" height="30" rx="15" fill="#BDBDBD" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Spark Lines -->
+  <path d="M380 280L420 320M644 280L604 320M350 366L390 366M634 366L674 366M380 452L420 412M644 452L604 412" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Inner Glow -->
+  <ellipse cx="512" cy="350" rx="80" ry="60" fill="rgba(255,255,255,0.3)"/>
+  
+  <!-- Sparkle -->
+  <circle cx="450" cy="250" r="8" fill="#fff"/>
+  <circle cx="574" cy="250" r="6" fill="#fff"/>
+  <circle cx="420" cy="320" r="4" fill="#fff"/>
+  <circle cx="604" cy="320" r="5" fill="#fff"/>
+</svg>

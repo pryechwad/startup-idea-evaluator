@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "startup-idea-evaluator",
-    "slug": "startup-idea-evaluator",
+    "name": "The Startup Idea Evaluator – AI + Voting App",
+    "slug": "ideaspark",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.pryechwad.ideaspark"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5d156d8d-c7a0-45b4-a8e1-f2e41e466175"
+      }
     }
   }
 }
