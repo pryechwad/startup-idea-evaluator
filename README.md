@@ -1,9 +1,14 @@
 # IdeaSpark - Startup Idea Evaluator
 
-<div align="center">
-  <h3>🚀 AI-Powered Startup Idea Platform</h3>
-  <p>Submit • Evaluate • Vote • Compete</p>
-</div>
+
+ 🚀 AI-Powered Startup Idea Platform
+ Submit • Evaluate • Vote • Compet
+ Demo:-
+ https://drive.google.com/file/d/1VuJZr3BHO9GzEqW3P3ofH9VxkHYZUoJW/view?usp=sharing
+
+
+
+
 
 ## 📱 Overview
 
@@ -323,10 +328,6 @@ This project demonstrates:
 - **Cross-platform optimization** and performance
 - **Modern development practices** and architecture
 
----
-
-<div align="center">
-  <p><strong>IdeaSpark</strong> - Where Innovation Meets Evaluation</p>
-  <p>Built with ❤️ using React Native + Expo + TypeScript</p>
-  <p><em>Powered by Pgagi ✨</em></p>
-</div>
+ Where Innovation Meets Evaluation
+Built with ❤️ using React Native + Expo + TypeScript
+  
